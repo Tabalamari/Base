@@ -1,6 +1,7 @@
-const location1 = 2;
-const location2 = 3;
-const location3 = 4;
+let randomLock = Math.floor(Math.random() * 5);
+let location1 = randomLock;
+let location2 = randomLock + 1;
+let location3 = randomLock + 2;
 let guess; //номер поточної спроби
 let hits = 0; //кількість влучань
 let guesses = 0; //кількість спроб
