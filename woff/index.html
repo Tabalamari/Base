@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let dogName = "Rover";
+        let dogWeight = 23;
+        let dogName1 = "Lady";
+        let dogWeight1 = 17;
+        function woff(name, weight) {
+            if (weight > 20) {
+                console.log(name + " says WOOF WOOF");
+            } else {
+                console.log(name + " says woof woof");
+            }
+        }
+        woff(dogName, dogWeight);
+        woff(dogName1, dogWeight1);
+        woff("Gena", 105);
+        woff("scottie", -1);
+        woff("dino", 0, 0)
+
+
+
+        function whatShallIWear (temp) {
+            if (temp < 60) {
+                console.log("Wear a jacket");
+            }
+            else if (temp < 70) {
+                console.log("Wear a sweater");
+            }
+            else {
+                console.log("Wear t-shirt");
+            }
+        }
+        whatShallIWear(50);
+        whatShallIWear(80);
+        whatShallIWear(60);
+
+    </script>
+</body>
+
+</html>
