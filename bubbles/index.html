@@ -38,6 +38,13 @@
         }
         return result.join("\n");
     }
+    //var output;
+    // var i = 0;
+    // while (i < scores.length) {
+    //     output = "Bubble solution #" + i + " score: " + scores[i]; console.log(output);
+    //     i = i + 1;
+
+
 
     function gethighestBubbleScore() {
         function compareNumbers(a, b) {
@@ -53,7 +60,7 @@
         const indexes = [];
         for (let i = 0; i < arr.length; i++) {
             if (arr[i] === val) {
-                indexes.push(i);
+                indexes.push(" #" + i);
             }
         }
         return "Solutions with highest score: " + indexes;
